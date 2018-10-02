@@ -1,5 +1,5 @@
 <?php
-    $connect = mysqli_connect("localhost", "root", "", "wangaris_kitchen");
+    $connect = mysqli_connect("localhost", "root", "", "sports-scouting");
 
     $username = $_POST['user'];
     $password = $_POST['pass'];
