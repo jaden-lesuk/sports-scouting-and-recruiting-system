@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'FrontController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/', 'FrontController@index')->name('home');
