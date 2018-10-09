@@ -16,6 +16,7 @@
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 </head>
 
@@ -34,7 +35,7 @@
                 <nav class="classy-navbar justify-content-between" id="fitnessNav">
 
                     <!-- Nav brand -->
-                    <a href="{{url('/home')}}" class="nav-brand"><img src="{{asset('')}}img/core-img/images.png" alt=""></a>
+                    <a href="{{url('/home')}}" class="nav-brand"><img src="{{asset('img/core-img/images.png')}} ></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">

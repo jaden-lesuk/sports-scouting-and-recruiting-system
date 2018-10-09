@@ -5,7 +5,7 @@
         <div class="hero-slides owl-carousel">
 
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url({{asset('img/bg-img/scouts.jpg')}});">
+            <div class="single-hero-slide bg-img" style="background-image: url({{url('img/bg-img/scouts.jpg')}});">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-9">
@@ -20,7 +20,7 @@
             </div>
 
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url({{asset('img/bg-img/scouts.jpg')}});">
+            <div class="single-hero-slide bg-img" style="background-image: url({{url('img/bg-img/scouts.jpg')}});">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-9">
@@ -35,7 +35,7 @@
             </div>
 
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url({{asset('img/bg-img/scouts.jpg')}});">
+            <div class="single-hero-slide bg-img" style="background-image: url({{url('img/bg-img/scouts.jpg')}});">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-9">

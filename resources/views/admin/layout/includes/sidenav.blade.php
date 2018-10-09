@@ -13,7 +13,7 @@
                 <!-- Sub menu -->
                 <ul>
                     <li><a href="#">Scouts</a></li>
-                    <li><a href="#">Manage Scouts</a></li>
+                    <li><a href="{{route('scouts.index')}}">Manage Scouts</a></li>
                 </ul>
             </li>
             <li class="submenu">
