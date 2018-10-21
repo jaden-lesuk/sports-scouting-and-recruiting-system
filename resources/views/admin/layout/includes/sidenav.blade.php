@@ -1,33 +1,44 @@
 {{-- Side Navigation --}}
-<div class="col-md-2">
-    <div class="sidebar content-box" style="display: block;">
-        <ul class="nav">
-            <!-- Main menu -->
-            <li class="current"><a href="#"><i class="glyphicon glyphicon-home"></i>
-                    Dashboard</a></li>
-            <li class="submenu">
-                <a href="{{route('admin.index')}}">
-                    <i class="glyphicon glyphicon-list"></i> Scout Management
-                    <span class="caret pull-right"></span>
-                </a>
-                <!-- Sub menu -->
-                <ul>
-                    <li><a href="#">Scouts</a></li>
-                    <li><a href="{{route('scouts.index')}}">Manage Scouts</a></li>
-                </ul>
-            </li>
-            <li class="submenu">
-                <a href="#">
-                    <i class="glyphicon glyphicon-list"></i> Player Management
-                    <span class="caret pull-right"></span>
-                </a>
-                <!-- Sub menu -->
-                <ul>
-                    <li><a href="#">Manage players</a></li>
-                </ul>
-            </li>
-
-
-        </ul>
+<div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
+<div class="sidebar-wrapper">
+    <div class="logo">
+        <a href="http://www.creative-tim.com" class="simple-text">
+            E-RECRUITER
+        </a>
     </div>
-</div> <!-- ADMIN SIDE NAV-->
+
+    <ul class="nav">
+        <li class="active">
+            <a href="{{route('home')}}">
+                <i class="pe-7s-graph"></i>
+                <p>Dashboard</p>
+            </a>
+        </li>
+        <li>
+            <a href="{{route('user')}}">
+                <i class="pe-7s-user"></i>
+                <p>Users</p>
+            </a>
+        </li>
+        <li>
+            <a href="{{route('table')}}">
+                <i class="pe-7s-note2"></i>
+                <p>Table List</p>
+            </a>
+        </li>
+        <li>
+            <a href="{{route('icons')}}">
+                <i class="pe-7s-science"></i>
+                <p>Icons</p>
+            </a>
+        </li>
+        <li>
+            <a href="{{route('notifications')}}">
+                <i class="pe-7s-bell"></i>
+                <p>Notifications</p>
+            </a>
+        </li>
+
+    </ul>
+</div>
+</div>
