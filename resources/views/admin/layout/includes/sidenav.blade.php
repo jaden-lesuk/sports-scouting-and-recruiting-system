@@ -14,6 +14,7 @@
                 <p>Dashboard</p>
             </a>
         </li>
+        @can('isAgent')
         <li>
             <a href="{{route('user')}}">
                 <i class="pe-7s-user"></i>
@@ -38,6 +39,17 @@
                 <p>Notifications</p>
             </a>
         </li>
+            @endcan
+        @can('isScout')
+            <li>
+                <a href="{{route('players')}}">
+                    <i class="pe-7s-bell"></i>
+                    <p>Players</p>
+                </a>
+            </li>
+
+            @endcan
+
 
     </ul>
 </div>
