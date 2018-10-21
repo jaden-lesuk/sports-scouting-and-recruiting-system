@@ -27,3 +27,4 @@ Route::group(['prefix'=>'admin','middleware'=>'auth'],function(){
         return view('admin.index');
     })->name('admin.index');
 });
+Route::resource('players','PlayersController');

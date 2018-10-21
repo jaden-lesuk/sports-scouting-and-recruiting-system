@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateScoutsTable extends Migration
+class CreatePlayersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,15 @@ class CreateScoutsTable extends Migration
      */
     public function up()
     {
-        Schema::create('scouts', function (Blueprint $table) {
+        Schema::create('players', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('Name');
+            $table->string('Firstname');
+            $table->string('Lastname');
+            $table->string('Region');
             $table->string('Age');
-            $table->string('Email');
+            $table->string('Position');
+            $table->string('Height');
+            $table->string('Stats');
             $table->timestamps();
         });
     }
@@ -29,6 +33,6 @@ class CreateScoutsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('scouts');
+        Schema::dropIfExists('players');
     }
 }

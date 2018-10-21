@@ -1,40 +1,44 @@
 @extends('admin.layout.admin')
 @section('content')
-    <h3>Add Product</h3>
+    <h3>Add Player</h3>
 
     <div class="row justify-content-center">
         <div class="col-md-4 col-md-offset-2">
-            {!! Form::open(['route' => 'player.store','method'=> 'post','files'=>true]) !!}
+            {!! Form::open(['route' => 'players.store','method'=> 'post','files'=>true]) !!}
             <div class="form-group">
-                {{ Form::label('name', 'Name') }}
-                {{ Form::text('name', null, array('class' => 'form-control','required'=>'','minlength'=>'5')) }}
+                {{ Form::label('Firstname', 'Firstname') }}
+                {{ Form::text('Firstname', null, array('class' => 'form-control','required'=>'')) }}
             </div>
 
             <div class="form-group">
-                {{ Form::label('description', 'Description') }}
-                {{ Form::text('description', null, array('class' => 'form-control')) }}
+                {{ Form::label('Lastname', 'Lastname') }}
+                {{ Form::text('Lastname', null, array('class' => 'form-control', 'required'=>'')) }}
             </div>
             <div class="form-group">
-                {{ Form::label('price', 'Price') }}
-                {{ Form::text('price', null, array('class' => 'form-control')) }}
+                {{ Form::label('Region', 'Region') }}
+                {{ Form::text('Region', null, array('class' => 'form-control')) }}
             </div>
 
             <div class="form-group">
-                {{ Form::label('size', 'Size') }}
-                {{ Form::text('size',  null, array('class' => 'form-control')) }}
+                {{ Form::label('Age', 'Age') }}
+                {{ Form::text('Age',  null, array('class' => 'form-control')) }}
             </div>
 
             <div class="form-group">
-                {{ Form::label('category_id', 'Categories') }}
-                {{ Form::select('category_id', $categories, null, ['class' => 'form-control','placeholder'=>'Select Category']) }}
+                {{ Form::label('Position', 'Position') }}
+                {{ Form::text('Position',null, array('class' => 'form-control')) }}
             </div>
 
             <div class="form-group">
-                {{ Form::label('image', 'Image') }}
-                {{ Form::file('image',array('class' => 'form-control')) }}
+                {{ Form::label('Height', 'Height') }}
+                {{ Form::file('Height',array('class' => 'form-control')) }}
+            </div>
+            <div class="form-group">
+                {{ Form::label('Stats', 'Stats') }}
+                {{ Form::file('Stats',array('class' => 'form-control')) }}
             </div>
 
-            {{ Form::submit('Create', array('class' => 'btn btn-default')) }}
+            {{ Form::submit('Add Player', array('class' => 'btn btn-default')) }}
 
 
             {!! Form::close() !!}
