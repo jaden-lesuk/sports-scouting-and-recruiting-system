@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Players;
-use App\Product;
+
 use Gate;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -17,13 +17,10 @@ class PlayersController extends Controller
      */
     public function index()
     {
-        if(!Gate::allows('isScout')){
-            abort(404, "Sorry, You cant do this actions");
-        }
-        //index page for showing products
+
 
         $players = Players::all();
-        return view('admin.players',compact('players'));
+        return view('scouts.players',compact('players'));
     }
 
     /**
@@ -44,7 +41,7 @@ class PlayersController extends Controller
      */
     public function store(Request $request)
     {
-        $formInput = $request;
+        $formInput = $request->all();
         $this->validate($request,[
             'Firstname'=>'required',
             'Lastname'=>'required',
@@ -54,8 +51,8 @@ class PlayersController extends Controller
             'Stats'=>'required',
         ]);
 
-        Product::create($formInput);
-        return redirect()->route('admin.player');
+        Players::create($formInput);
+        return redirect()->route('players.index');
     }
 
     /**

@@ -42,11 +42,11 @@
 
         -->
 
-        <?php echo $__env->make('admin.layout.includes.sidenav', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        <?php echo $__env->make('scouts.layout.includes.sidenav', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <div class="main-panel">
 
-<?php echo $__env->make('admin.layout.includes.header', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php echo $__env->make('scouts.layout.includes.header', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
                         <?php echo $__env->yieldContent('content'); ?>
 
