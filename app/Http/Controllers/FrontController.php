@@ -7,21 +7,21 @@ use Illuminate\Http\Request;
 class FrontController extends Controller
 {
     public function index(){
-        return view('admin.index');
+        return view('scouts.index');
     }
 
     public function table(){
-        return view('admin.table');
+        return view('scouts.table');
     }
 
     public function user(){
-        return view('admin.user');
+        return view('scouts.user');
     }
 
     public function icons(){
-        return view('admin.icons');
+        return view('scouts.icons');
     }
     public function notifications(){
-        return view('admin.notifications');
+        return view('scouts.notifications');
     }
 }

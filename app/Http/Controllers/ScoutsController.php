@@ -14,7 +14,7 @@ class ScoutsController extends Controller
     public function index()
     {
         $scouts = Scouts::all();
-        return view('admin.scouts.index',compact('scouts'));
+        return view('scouts.scouts.index',compact('scouts'));
     }
 
     /**

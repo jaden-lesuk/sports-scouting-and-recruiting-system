@@ -15,6 +15,9 @@ class CreateScoutsTable extends Migration
     {
         Schema::create('scouts', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('Name');
+            $table->string('Age');
+            $table->string('Email');
             $table->timestamps();
         });
     }

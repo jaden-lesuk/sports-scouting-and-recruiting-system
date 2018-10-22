@@ -22,8 +22,9 @@ Auth::routes();
 
 
 Route::get('/', 'FrontController@index');
-Route::group(['prefix'=>'admin','middleware'=>'auth'],function(){
-    Route::get('/',function(){
-        return view('admin.index');
-    })->name('admin.index');
+
+Route::resource('players','PlayersController');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });
