@@ -27,20 +27,6 @@
                 <p>Table List</p>
             </a>
         </li>
-        <li>
-            <a href="{{route('icons')}}">
-                <i class="pe-7s-science"></i>
-                <p>Icons</p>
-            </a>
-        </li>
-        <li>
-            <a href="{{route('notifications')}}">
-                <i class="pe-7s-bell"></i>
-                <p>Notifications</p>
-            </a>
-        </li>
-
-
             <li>
                 <a href="{{route('players.index')}}">
                     <i class="pe-7s-bell"></i>
