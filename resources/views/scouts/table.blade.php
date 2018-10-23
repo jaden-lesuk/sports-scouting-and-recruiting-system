@@ -9,8 +9,8 @@
                         <div class="header">
                             <h4 class="title">Striped Table with Hover</h4>
                             <p class="category">Here is a subtitle for this table</p>
-                            @if(Session::has('message'))
-                                <div class="alert alert-success">{{Session::get('message')}}</div>
+                            @if($success= Session::has('message'))
+                                <div class="alert alert-success"><p>{{ $success }}</p></div>
 
                                 @endif
                         </div>

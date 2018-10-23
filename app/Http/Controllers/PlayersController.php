@@ -86,9 +86,9 @@ class PlayersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request)
+    public function update(Request $request, $id)
     {
-       $details =$request->all();
+
         $this->validate($request,[
             'Firstname'=>'required',
             'Lastname'=>'required',
@@ -97,7 +97,7 @@ class PlayersController extends Controller
             'Height'=>'required',
             'Stats'=>'required',
         ]);
-        Players::update($details);
+        Players::find($id)->update($request->all());
        return redirect()->route('table')->with('message','item has been updated successfully');
     }
 
@@ -109,9 +109,8 @@ class PlayersController extends Controller
      */
     public function destroy($id)
     {
-        $players= Players::find($id);
-        $players->players()->delete();
-        $players= delete();
+        Players::find($id)->delete();
+
         return redirect()->route('table')->with('message','item has been deleted successfully');
 
     }

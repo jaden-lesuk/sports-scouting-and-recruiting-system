@@ -4,7 +4,7 @@
 
     <div class="row justify-content-center">
         <div class="col-md-4 col-md-offset-2">
-            {!! Form::model($players,array('route' => ['players.update',$players->id],'method'=>'PUT')) !!}
+            {!! Form::model($players,['route' => ['players.update',$players->id],'method'=>'PATCH']) !!}
             <div class="form-group">
                 {{ Form::label('Firstname', 'Firstname') }}
                 {{ Form::text('Firstname', null, array('class' => 'form-control','required'=>'')) }}
