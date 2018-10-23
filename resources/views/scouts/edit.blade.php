@@ -5,7 +5,7 @@
         <br>
         <h2 class="brand-text" style="margin-left:230px">Edit Player Details</h2><br><br>
         <div class="col-md-4 col-md-offset-2">
-            {!! Form::model($players,array('route' => ['players.update',$players->id],'method'=>'PUT')) !!}
+            {!! Form::model($players,['route' => ['players.update',$players->id],'method'=>'PATCH']) !!}
             <div class="form-group">
                 {{ Form::label('Firstname', 'Firstname') }}
                 {{ Form::text('Firstname', null, array('class' => 'form-control','required'=>'')) }}
