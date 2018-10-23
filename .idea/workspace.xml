@@ -79,7 +79,7 @@
           <entry key="js" value="1" />
           <entry key="json" value="1" />
           <entry key="map" value="1" />
-          <entry key="php" value="182" />
+          <entry key="php" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -89,7 +89,7 @@
           <entry key="CSS" value="4" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="112" />
+          <entry key="PHP" value="113" />
           <entry key="SourceMap" value="1" />
         </counts>
       </usages-collector>
@@ -114,6 +114,15 @@
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Players.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -419,7 +428,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="order&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Order.php&#10;pro&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Product.php&#10;cate&#9;null&#9;null&#10;players&#9;null&#9;null&#10;ca&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Http/Controllers/CategoriesController.php&#10;pla&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/app/Http/Controllers/PlayersController.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/app/Http/Controllers/FrontController.php&#10;item&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/resources/views/front/items.blade.php&#10;tab&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/resources/views/scouts/table.blade.php&#10;categories&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Http/Controllers/CategoriesController.php&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/resources/views/cart/index.blade.php&#10;authe&#9;null&#9;null&#10;config/app&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/config/app.php&#10;pa&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/resources/views/front/payment.blade.php&#10;ord&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Http/Controllers/OrderController.php&#10;orders&#9;null&#9;null&#10;config/mail&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/config/mail.php&#10;checkou&#9;null&#9;null&#10;tcg&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/vendor/tcg&#10;voyager&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/voyager.php&#10;play&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/app/Http/Controllers/PlayersController.php&#10;sid&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/resources/views/scouts/layout/includes/sidenav.blade.php&#10;playe&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/resources/views/scouts/players.blade.php&#10;compos&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/composer.json&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/routes/web.php&#10;config/app.&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/app.php&#10;composer.&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/composer.json&#10;compose&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/composer.json&#10;side&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/resources/views/scouts/layout/includes/sidenav.blade.php&#10;player&#9;null&#9;null&#10;voyager.ph&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/voyager.php&#10;voya&#9;null&#9;null&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/app/Providers/AuthServiceProvider.php&#10;a&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Providers/AppServiceProvider.php&#10;data&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/database.php&#10;conf/&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config&#10;config/da&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/config/database.php&#10;appser&#9;null&#9;null&#10;ENV&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/.env&#10;conf&#9;null&#9;null&#10;auth&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/auth.php&#10;sc&#9;null&#9;null&#10;cre&#9;null&#9;null&#10;regi&#9;null&#9;null&#10;lo&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="TA&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/resources/views/scouts/table.blade.php&#10;order&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Order.php&#10;pro&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Product.php&#10;cate&#9;null&#9;null&#10;players&#9;null&#9;null&#10;ca&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Http/Controllers/CategoriesController.php&#10;pla&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/app/Http/Controllers/PlayersController.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/app/Http/Controllers/FrontController.php&#10;item&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/resources/views/front/items.blade.php&#10;tab&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/resources/views/scouts/table.blade.php&#10;categories&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Http/Controllers/CategoriesController.php&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/resources/views/cart/index.blade.php&#10;authe&#9;null&#9;null&#10;config/app&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/config/app.php&#10;pa&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/resources/views/front/payment.blade.php&#10;ord&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Http/Controllers/OrderController.php&#10;orders&#9;null&#9;null&#10;config/mail&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/config/mail.php&#10;checkou&#9;null&#9;null&#10;tcg&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/vendor/tcg&#10;voyager&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/voyager.php&#10;play&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/app/Http/Controllers/PlayersController.php&#10;sid&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/resources/views/scouts/layout/includes/sidenav.blade.php&#10;playe&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/resources/views/scouts/players.blade.php&#10;compos&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/composer.json&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/routes/web.php&#10;config/app.&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/app.php&#10;composer.&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/composer.json&#10;compose&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/composer.json&#10;side&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/resources/views/scouts/layout/includes/sidenav.blade.php&#10;player&#9;null&#9;null&#10;voyager.ph&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/voyager.php&#10;voya&#9;null&#9;null&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/app/Providers/AuthServiceProvider.php&#10;a&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/app/Providers/AppServiceProvider.php&#10;data&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/database.php&#10;conf/&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config&#10;config/da&#9;FILE&#9;file://C:/xampp/htdocs/QuickL/config/database.php&#10;appser&#9;null&#9;null&#10;ENV&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/.env&#10;conf&#9;null&#9;null&#10;auth&#9;FILE&#9;file://C:/xampp/htdocs/sports-scouting-and-recruiting-system/config/auth.php&#10;sc&#9;null&#9;null&#10;cre&#9;null&#9;null&#10;regi&#9;null&#9;null&#10;lo&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SRS/CrudResource" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -474,7 +483,7 @@
       <workItem from="1540190823278" duration="5538000" />
       <workItem from="1540210069325" duration="9062000" />
       <workItem from="1540230567047" duration="614000" />
-      <workItem from="1540231436287" duration="8630000" />
+      <workItem from="1540231436287" duration="9266000" />
     </task>
     <task id="LOCAL-00001" summary="Added some features">
       <created>1539077444812</created>
@@ -487,13 +496,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71045000" />
+    <option name="totallyTimeSpent" value="71681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="694" height="775" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49766356" visible="true" weight="0.33911672" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49766356" visible="true" weight="0.33911672" />
       <window_info id="Structure" order="1" sideWeight="0.50233644" side_tool="true" weight="0.37223974" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -810,13 +818,6 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Players.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -856,6 +857,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../QuickL/app/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Players.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
