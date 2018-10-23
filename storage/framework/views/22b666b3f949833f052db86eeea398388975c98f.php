@@ -1234,4 +1234,4 @@
     </div>
 
     <?php $__env->stopSection(); ?>
-<?php echo $__env->make('admin.layout.admin', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php echo $__env->make('scouts.layout.scouts', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>

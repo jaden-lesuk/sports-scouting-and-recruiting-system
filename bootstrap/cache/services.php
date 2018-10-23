@@ -23,15 +23,22 @@
     19 => 'Illuminate\\Translation\\TranslationServiceProvider',
     20 => 'Illuminate\\Validation\\ValidationServiceProvider',
     21 => 'Illuminate\\View\\ViewServiceProvider',
-    22 => 'BeyondCode\\DumpServer\\DumpServerServiceProvider',
-    23 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    24 => 'Laravel\\Tinker\\TinkerServiceProvider',
-    25 => 'Carbon\\Laravel\\ServiceProvider',
-    26 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    27 => 'App\\Providers\\AppServiceProvider',
-    28 => 'App\\Providers\\AuthServiceProvider',
-    29 => 'App\\Providers\\EventServiceProvider',
-    30 => 'App\\Providers\\RouteServiceProvider',
+    22 => 'Arrilot\\Widgets\\ServiceProvider',
+    23 => 'BeyondCode\\DumpServer\\DumpServerServiceProvider',
+    24 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
+    25 => 'Intervention\\Image\\ImageServiceProvider',
+    26 => 'Larapack\\VoyagerHooks\\VoyagerHooksServiceProvider',
+    27 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    28 => 'Collective\\Html\\HtmlServiceProvider',
+    29 => 'Carbon\\Laravel\\ServiceProvider',
+    30 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    31 => 'TCG\\Voyager\\VoyagerServiceProvider',
+    32 => 'TCG\\Voyager\\Providers\\VoyagerDummyServiceProvider',
+    33 => 'Collective\\Html\\HtmlServiceProvider',
+    34 => 'App\\Providers\\AppServiceProvider',
+    35 => 'App\\Providers\\AuthServiceProvider',
+    36 => 'App\\Providers\\EventServiceProvider',
+    37 => 'App\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -45,13 +52,18 @@
     7 => 'Illuminate\\Pagination\\PaginationServiceProvider',
     8 => 'Illuminate\\Session\\SessionServiceProvider',
     9 => 'Illuminate\\View\\ViewServiceProvider',
-    10 => 'BeyondCode\\DumpServer\\DumpServerServiceProvider',
-    11 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    12 => 'Carbon\\Laravel\\ServiceProvider',
-    13 => 'App\\Providers\\AppServiceProvider',
-    14 => 'App\\Providers\\AuthServiceProvider',
-    15 => 'App\\Providers\\EventServiceProvider',
-    16 => 'App\\Providers\\RouteServiceProvider',
+    10 => 'Arrilot\\Widgets\\ServiceProvider',
+    11 => 'BeyondCode\\DumpServer\\DumpServerServiceProvider',
+    12 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
+    13 => 'Intervention\\Image\\ImageServiceProvider',
+    14 => 'Larapack\\VoyagerHooks\\VoyagerHooksServiceProvider',
+    15 => 'Carbon\\Laravel\\ServiceProvider',
+    16 => 'TCG\\Voyager\\VoyagerServiceProvider',
+    17 => 'TCG\\Voyager\\Providers\\VoyagerDummyServiceProvider',
+    18 => 'App\\Providers\\AppServiceProvider',
+    19 => 'App\\Providers\\AuthServiceProvider',
+    20 => 'App\\Providers\\EventServiceProvider',
+    21 => 'App\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (
@@ -157,6 +169,10 @@
     'validator' => 'Illuminate\\Validation\\ValidationServiceProvider',
     'validation.presence' => 'Illuminate\\Validation\\ValidationServiceProvider',
     'command.tinker' => 'Laravel\\Tinker\\TinkerServiceProvider',
+    'html' => 'Collective\\Html\\HtmlServiceProvider',
+    'form' => 'Collective\\Html\\HtmlServiceProvider',
+    'Collective\\Html\\HtmlBuilder' => 'Collective\\Html\\HtmlServiceProvider',
+    'Collective\\Html\\FormBuilder' => 'Collective\\Html\\HtmlServiceProvider',
     'NunoMaduro\\Collision\\Contracts\\Provider' => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
   ),
   'when' => 
@@ -198,6 +214,9 @@
     array (
     ),
     'Laravel\\Tinker\\TinkerServiceProvider' => 
+    array (
+    ),
+    'Collective\\Html\\HtmlServiceProvider' => 
     array (
     ),
     'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider' => 
