@@ -7,8 +7,11 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="header">
-                            <h4 class="title">Striped Table with Hover</h4>
-                            <p class="category">Here is a subtitle for this table</p>
+                            <h4 class="title">Players</h4>
+                            <div class="" style="margin-right: 20px;">
+                              {{link_to_route('players.index','Add new Player',null,['class'=>'btn btn-primary pull-right navbar-right'])}}
+                            </div>
+
                             @if(Session::has('message'))
                                 <div class="alert alert-success">{{Session::get('message')}}</div>
 
@@ -48,7 +51,7 @@
 
                                 </tbody>
                             </table>
-                            {{link_to_route('players.index','Add new Player',null,['class'=>'btn btn-success'])}}
+
 
 
 

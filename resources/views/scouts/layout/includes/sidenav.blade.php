@@ -24,13 +24,13 @@
         <li>
             <a href="{{route('table')}}">
                 <i class="pe-7s-note2"></i>
-                <p>Table List</p>
+                <p>Players List</p>
             </a>
         </li>
             <li>
                 <a href="{{route('players.index')}}">
                     <i class="pe-7s-bell"></i>
-                    <p>Players</p>
+                    <p>Add Player</p>
                 </a>
             </li>
 
