@@ -10,9 +10,9 @@
 define('LARAVEL_START', microtime(true));
 
 /*
-|--------------------------------------------------------------------------
+|-------------------------------------------------------------------------------------------------
 | Register The Auto Loader
-|--------------------------------------------------------------------------
+|-------------------------------------------------------------------------------------------------
 |
 | Composer provides a convenient, automatically generated class loader for
 | our application. We just need to utilize it! We'll simply require it
@@ -25,7 +25,7 @@ require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
-| Turn On The Lights
+| Turn On The Lights 
 |--------------------------------------------------------------------------
 |
 | We need to illuminate PHP development, so let us turn on the lights.
@@ -46,6 +46,8 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 | through the kernel, and send the associated response back to
 | the client's browser allowing them to enjoy the creative
 | and wonderful application we have prepared for them.
+|
+|
 |
 */
 
