@@ -1,7 +1,6 @@
 @extends('scouts.layout.admin')
 @section('content')
 
-
     <div class="row justify-content-center">
       <div class="container" style="margin-left: 250px;">
         <br>
