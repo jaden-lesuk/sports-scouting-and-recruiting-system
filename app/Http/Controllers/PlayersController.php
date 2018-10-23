@@ -63,7 +63,9 @@ class PlayersController extends Controller
      */
     public function show($id)
     {
-        //
+
+        $players= Players::all();
+        return view('players',compact(['players']));
     }
 
     /**
@@ -72,9 +74,9 @@ class PlayersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Players $players)
     {
-        //
+        return view('scouts.edit',compact('players'));
     }
 
     /**
@@ -84,9 +86,19 @@ class PlayersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        //
+       $details =$request->all();
+        $this->validate($request,[
+            'Firstname'=>'required',
+            'Lastname'=>'required',
+            'Age'=>'required',
+            'Position'=>'required',
+            'Height'=>'required',
+            'Stats'=>'required',
+        ]);
+        Players::update($details);
+       return redirect()->route('table')->with('message','item has been updated successfully');
     }
 
     /**
@@ -97,6 +109,10 @@ class PlayersController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $players= Players::find($id);
+        $players->players()->delete();
+        $players= delete();
+        return redirect()->route('table')->with('message','item has been deleted successfully');
+
     }
 }
