@@ -2487,6 +2487,13 @@ esources\\views\\scouts\\players.blade.php) at C:\\xampp\\htdocs\\sports-scoutin
 [2018-10-22 06:47:40] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
  {"exception":"[object] (Doctrine\\DBAL\\Driver\\PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
  at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Driver\\PDOConnection.php:50, PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+=======
+<<<<<<< naomi
+[2018-10-22 06:47:38] local.ERROR: No Database connection yet in VoyagerServiceProvider registerGates()  
+[2018-10-22 06:47:40] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ {"exception":"[object] (Doctrine\\DBAL\\Driver\\PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Driver\\PDOConnection.php:50, PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+>>>>>>> master
  at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Driver\\PDOConnection.php:46)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(65): Doctrine\\DBAL\\Driver\\PDOConnection->__construct('mysql:host=127....', 'root', '', Array)
@@ -2524,9 +2531,15 @@ esources\\views\\scouts\\players.blade.php) at C:\\xampp\\htdocs\\sports-scoutin
 #32 {main}
 "} 
 [2018-10-22 12:56:48] local.ERROR: No Database connection yet in VoyagerServiceProvider registerGates()  
+<<<<<<< naomi
 [2018-10-22 12:56:50] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
  {"exception":"[object] (Doctrine\\DBAL\\Driver\\PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
  at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Driver\\PDOConnection.php:50, PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+=======
+[2018-10-22 12:56:50] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ {"exception":"[object] (Doctrine\\DBAL\\Driver\\PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Driver\\PDOConnection.php:50, PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+>>>>>>> master
  at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Driver\\PDOConnection.php:46)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(65): Doctrine\\DBAL\\Driver\\PDOConnection->__construct('mysql:host=127....', 'root', '', Array)
@@ -2563,8 +2576,13 @@ esources\\views\\scouts\\players.blade.php) at C:\\xampp\\htdocs\\sports-scoutin
 #31 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #32 {main}
 "} 
+<<<<<<< naomi
 [2018-10-22 19:41:25] local.ERROR: Undefined variable: players (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: players (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
 esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\b559f8c2b645f69573adbd3a3230475784ff8eba.php:28, ErrorException(code: 0): Undefined variable: players at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\b559f8c2b645f69573adbd3a3230475784ff8eba.php:28)
+=======
+[2018-10-22 19:41:25] local.ERROR: Undefined variable: players (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: players (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
+esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\b559f8c2b645f69573adbd3a3230475784ff8eba.php:28, ErrorException(code: 0): Undefined variable: players at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\b559f8c2b645f69573adbd3a3230475784ff8eba.php:28)
+>>>>>>> master
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
 #1 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
@@ -2624,8 +2642,13 @@ esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-
 #55 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #56 {main}
 "} 
+<<<<<<< naomi
 [2018-10-22 19:45:00] local.ERROR: Undefined variable: player (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: player (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
 esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\b559f8c2b645f69573adbd3a3230475784ff8eba.php:28, ErrorException(code: 0): Undefined variable: player at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\b559f8c2b645f69573adbd3a3230475784ff8eba.php:28)
+=======
+[2018-10-22 19:45:00] local.ERROR: Undefined variable: player (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: player (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
+esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\b559f8c2b645f69573adbd3a3230475784ff8eba.php:28, ErrorException(code: 0): Undefined variable: player at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\b559f8c2b645f69573adbd3a3230475784ff8eba.php:28)
+>>>>>>> master
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
 #1 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
@@ -2685,8 +2708,13 @@ esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-
 #55 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #56 {main}
 "} 
+<<<<<<< naomi
 [2018-10-22 19:52:29] local.ERROR: Route [edit] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [edit] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
 esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [edit] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+=======
+[2018-10-22 19:52:29] local.ERROR: Route [edit] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [edit] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
+esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [edit] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+>>>>>>> master
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
 #1 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
@@ -2746,8 +2774,13 @@ esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-
 #55 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #56 {main}
 "} 
+<<<<<<< naomi
 [2018-10-22 19:56:34] local.ERROR: Route [$player.edit] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [$player.edit] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
 esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [$player.edit] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+=======
+[2018-10-22 19:56:34] local.ERROR: Route [$player.edit] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [$player.edit] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
+esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [$player.edit] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+>>>>>>> master
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
 #1 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
@@ -2807,8 +2840,13 @@ esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-
 #55 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #56 {main}
 "} 
+<<<<<<< naomi
 [2018-10-22 19:57:04] local.ERROR: Route [scout.edit] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [scout.edit] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
 esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [scout.edit] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+=======
+[2018-10-22 19:57:04] local.ERROR: Route [scout.edit] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [scout.edit] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
+esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [scout.edit] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+>>>>>>> master
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
 #1 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
@@ -2868,8 +2906,13 @@ esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-
 #55 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #56 {main}
 "} 
+<<<<<<< naomi
 [2018-10-22 19:57:12] local.ERROR: Route [scouts.edit] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [scouts.edit] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
 esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [scouts.edit] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+=======
+[2018-10-22 19:57:12] local.ERROR: Route [scouts.edit] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [scouts.edit] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
+esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [scouts.edit] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+>>>>>>> master
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
 #1 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
@@ -2929,8 +2972,13 @@ esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-
 #55 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #56 {main}
 "} 
+<<<<<<< naomi
 [2018-10-22 19:58:27] local.ERROR: Route [players] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [players] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
 esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [players] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+=======
+[2018-10-22 19:58:27] local.ERROR: Route [players] not defined. (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\table.blade.php) {"exception":"[object] (ErrorException(code: 0): Route [players] not defined. (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
+esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374, InvalidArgumentException(code: 0): Route [players] not defined. at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:374)
+>>>>>>> master
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
 #1 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
@@ -3050,8 +3098,13 @@ esources\\views\\scouts\\table.blade.php) at C:\\xampp\\htdocs\\sports-scouting-
 #55 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #56 {main}
 "} 
+<<<<<<< naomi
 [2018-10-22 19:59:21] local.ERROR: Undefined variable: player (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\edit.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: player (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
 esources\\views\\scouts\\edit.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\7249593d4a09260fa19aaece31b86a155d51527b.php:6, ErrorException(code: 0): Undefined variable: player at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\7249593d4a09260fa19aaece31b86a155d51527b.php:6)
+=======
+[2018-10-22 19:59:21] local.ERROR: Undefined variable: player (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\edit.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: player (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
+esources\\views\\scouts\\edit.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\7249593d4a09260fa19aaece31b86a155d51527b.php:6, ErrorException(code: 0): Undefined variable: player at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\7249593d4a09260fa19aaece31b86a155d51527b.php:6)
+>>>>>>> master
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
 #1 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
@@ -3111,8 +3164,13 @@ esources\\views\\scouts\\edit.blade.php) at C:\\xampp\\htdocs\\sports-scouting-a
 #55 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #56 {main}
 "} 
+<<<<<<< naomi
 [2018-10-22 20:02:57] local.ERROR: Undefined variable: player (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\edit.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: player (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
 esources\\views\\scouts\\edit.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\7249593d4a09260fa19aaece31b86a155d51527b.php:6, ErrorException(code: 0): Undefined variable: player at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\7249593d4a09260fa19aaece31b86a155d51527b.php:6)
+=======
+[2018-10-22 20:02:57] local.ERROR: Undefined variable: player (View: C:\xampp\htdocs\sports-scouting-and-recruiting-system\resources\views\scouts\edit.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: player (View: C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\
+esources\\views\\scouts\\edit.blade.php) at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\7249593d4a09260fa19aaece31b86a155d51527b.php:6, ErrorException(code: 0): Undefined variable: player at C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\storage\\framework\\views\\7249593d4a09260fa19aaece31b86a155d51527b.php:6)
+>>>>>>> master
 [stacktrace]
 #0 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
 #1 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp\\\\htdocs...', Array)
@@ -3460,6 +3518,8 @@ esources\\views\\scouts\\edit.blade.php) at C:\\xampp\\htdocs\\sports-scouting-a
 #53 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #54 C:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #55 {main}
+<<<<<<< naomi
+=======
 =======
 [2018-10-22 16:54:22] local.ERROR: No Database connection yet in VoyagerServiceProvider registerGates()  
 [2018-10-22 16:54:22] local.ERROR: SQLSTATE[HY000] [1049] Unknown database 'src' {"exception":"[object] (Doctrine\\DBAL\\Driver\\PDOException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'src' at D:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Driver\\PDOConnection.php:50, PDOException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'src' at D:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\vendor\\doctrine\\dbal\\lib\\Doctrine\\DBAL\\Driver\\PDOConnection.php:46)
@@ -3610,5 +3670,6 @@ esources\\views\\scouts\\edit.blade.php) at C:\\xampp\\htdocs\\sports-scouting-a
 #60 D:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #61 D:\\xampp\\htdocs\\sports-scouting-and-recruiting-system\\server.php(21): require_once('D:\\\\xampp\\\\htdocs...')
 #62 {main}
+>>>>>>> master
 >>>>>>> master
 "} 
