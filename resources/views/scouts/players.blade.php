@@ -1,8 +1,11 @@
 @extends('scouts.layout.admin')
 @section('content')
-    <h3>Add Player</h3>
+
 
     <div class="row justify-content-center">
+      <div class="container" style="margin-left: 250px;">
+        <br>
+        <h2 class="brand-text" style="margin-left:270px">Add Player</h2><br><br>
         <div class="col-md-4 col-md-offset-2">
             {!! Form::open(['route' => 'players.store','method'=> 'post','files'=>true]) !!}
             <div class="form-group">
@@ -37,13 +40,13 @@
                 {{ Form::label('Stats', 'Stats') }}
                 {{ Form::text('Stats',null, array('class' => 'form-control')) }}
             </div>
-
-            {{ Form::submit('Add Player', array('class' => 'btn btn-default')) }}
-
+            <div class="" style="margin-right:30px;margin-left:30px;font-size:20px;padding:20px;">
+              {{ Form::submit('Add Player', array('class' => 'btn btn-primary btn-block btn-glow  mx-1')) }}
+            </div><br><br>
 
             {!! Form::close() !!}
         </div>
+      </div>
     </div>
-
 
     @endsection
