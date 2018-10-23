@@ -26,7 +26,7 @@ class Attempting
     public $remember;
 
     /**
-     * Create a new event instance.
+     * Create a new event instance..................
      *
      * @param  string  $guard
      * @param  array  $credentials
