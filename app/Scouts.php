@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Scouts extends Model
 {
-    //
+    //ok
 }
