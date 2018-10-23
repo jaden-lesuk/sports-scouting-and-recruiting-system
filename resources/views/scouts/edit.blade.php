@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       <div class="container" style="margin-left: 250px;">
         <br>
-        <h2 class="brand-text" style="margin-left:270px">Edit Player Details</h2><br><br>
+        <h2 class="brand-text" style="margin-left:230px">Edit Player Details</h2><br><br>
         <div class="col-md-4 col-md-offset-2">
             {!! Form::model($players,array('route' => ['players.update',$players->id],'method'=>'PUT')) !!}
             <div class="form-group">
